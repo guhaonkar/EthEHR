@@ -1,0 +1,7 @@
+import web3 from './web3';
+
+const address = '0xA1fF13BCA648589696b65907f51daA12bAE4686F';  
+
+const abi = [{"constant":true,"inputs":[],"name":"getAdmin","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"patAddr","type":"address"},{"name":"newEHR","type":"string"}],"name":"updateEHR","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"viewEHR","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newPatAddr","type":"address"}],"name":"addPat","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"docList","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newDocAddr","type":"address"}],"name":"addDoc","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"patAddr","type":"address"},{"name":"docAddr","type":"address"}],"name":"assignDoc","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}];
+
+export default new web3.eth.Contract(abi, address);

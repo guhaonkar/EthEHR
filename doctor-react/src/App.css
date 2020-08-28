@@ -1,0 +1,60 @@
+body {
+  background: url("https://mk0digitallearn7ttjx.kinstacdn.com/wp-content/uploads/2019/07/Over-2100-Medical-PG-seats-have-increased-revealed-Health-Ministry.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10;
+}
+
+.search_container {
+  width: 30%;
+  height: 10%;
+  padding: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.search_title{
+  font-size: 22px;
+  font-weight: 900;
+  color: #1aa3ff;
+}
+
+.search_input {
+  width: 50%;
+  padding: 12px 24px;
+
+  background-color: white;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  
+  color: #575756;
+  background-color: transparent;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+
+
+  background-repeat: no-repeat;
+  background-size: 9px 9px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.bt{
+  background-color:  #1aa3ff; /* Green */
+  border: none;
+  margin: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
